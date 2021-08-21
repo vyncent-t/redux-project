@@ -1,6 +1,6 @@
 // delete old context code
 import React from "react";
-import { Provider } from "react";
+import { Provider } from "react-redux";
 import store from "./store";
 
 const StoreProvider = ({ ...props }) => {
